@@ -875,3 +875,42 @@ div.carousel-inner {
   display: inline;
   max-width: 30em;
 }
+
+.slide code {
+  font-size: inherit;
+}
+
+
+@media (max-width: 768px) {
+
+  .page-header {
+    margin-top: 6px;
+    padding: 1em;
+  }
+
+  .hero-unit {
+    padding: 1em;
+  }
+  section {
+    padding-top: 6px;
+  }
+  hr.soften {
+    display: none;
+    margin: 12px 0;
+  }
+  .hero-unit .slide h1 {
+    font-size: 36px;
+  }
+
+.carousel-control.left.aside {
+  bottom: -10px;
+  left: -.3em;
+}
+
+.carousel-control.right.aside {
+  bottom: -10px;
+  right: -.3em;
+}
+
+
+}
