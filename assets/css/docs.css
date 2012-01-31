@@ -898,8 +898,17 @@ div.carousel-inner {
     display: none;
     margin: 12px 0;
   }
+  .well h1 {
+    font-size: 28px;
+    font-weight: 700;
+  }
   .hero-unit .slide h1 {
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 28px;
+  }
+
+  .hero-unit .slide h3 {
+    font-size: 28px;
   }
 
 .carousel-control.left.aside {
