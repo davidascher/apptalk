@@ -817,11 +817,23 @@ h1{
   padding-bottom: .5em;
 }
 
-.hero-unit h3 {
+.hero-unit h2 {
   font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  padding-bottom: .5em;
+}
+
+.hero-unit h3 {
+  font-size: 36px;
   line-height: 1.3em;
 }
 
+.hero-unit li,p {
+  font-size: xx-large;
+  line-height: 1.3em;
+  font-weight: 400;
+}
 .code {
   font-family: 'Inconsolata', sans-serif;
   font-weight: 400;
@@ -880,6 +892,19 @@ div.carousel-inner {
   font-size: inherit;
 }
 
+a.mdnlink {
+  /*padding-right: 40px*/
+}
+a.mdnlink:after {
+    display: inline-block;
+    content: "";
+    margin-left: .2em;
+    margin-bottom: 0px;
+    width: 42px;
+    height: 48px;
+    background: transparent url('../img/mdn-logo-tiny.png') no-repeat;
+}
+
 
 @media (max-width: 768px) {
 
@@ -887,6 +912,7 @@ div.carousel-inner {
     margin-top: 6px;
     padding: 1em;
   }
+
 
   .hero-unit {
     padding: 1em;

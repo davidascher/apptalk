@@ -34,7 +34,7 @@
   Carousel.prototype = {
 
     cycle: function () {
-      this.interval = setInterval($.proxy(this.next, this), this.options.interval)
+//      this.interval = setInterval($.proxy(this.next, this), this.options.interval)
       return this
     }
 
