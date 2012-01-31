@@ -867,3 +867,8 @@ div.carousel-inner {
   bottom: -100px;
   right: -1em;
 }
+
+#logo {
+  display: inline;
+  max-width: 30em;
+}
