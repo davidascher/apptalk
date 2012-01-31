@@ -798,6 +798,9 @@ form.well {
 
 body, .masthead h1, .masthead p.oldstyle {
   font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility; 
+  -moz-font-feature-settings: "liga=1"; 
+  -ms-font-feature-settings: "liga" 1;
 }
 
 h1{
