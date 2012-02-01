@@ -794,11 +794,18 @@ form.well {
 
 }
 
-body, .masthead h1, .masthead p {
+p, body, .masthead h1, .masthead p {
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility; 
   -moz-font-feature-settings: "liga=1"; 
   -ms-font-feature-settings: "liga" 1;
+}
+
+.masthead h3 {
+  text-align: center;
+  font-size: xx-large;
+  line-height: 1.3em;
+  font-weight: 400;
 }
 
 h1{
@@ -827,7 +834,7 @@ h1{
   line-height: 1.3em;
 }
 
-.hero-unit li {
+.hero-unit ul li {
   font-size: xx-large;
   line-height: 1.3em;
   font-weight: 400  ;
