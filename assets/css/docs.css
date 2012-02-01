@@ -794,9 +794,7 @@ form.well {
 
 }
 
-
-
-body, .masthead h1, .masthead p.oldstyle {
+body, .masthead h1, .masthead p {
   font-family: 'Open Sans', sans-serif;
   text-rendering: optimizeLegibility; 
   -moz-font-feature-settings: "liga=1"; 
@@ -829,12 +827,20 @@ h1{
   line-height: 1.3em;
 }
 
-.hero-unit li,p {
+.hero-unit li {
+  font-size: xx-large;
+  line-height: 1.3em;
+  font-weight: 400  ;
+}
+.hero-unit p {
   font-size: xx-large;
   line-height: 1.3em;
   font-weight: 400  ;
 }
 
+.license {
+  font-size: small;
+}
 .hero-unit ul li {
   list-style-type: none;
 }
@@ -851,9 +857,11 @@ h1{
   font-family: 'Condiment', cursive;  
   font-weight: 400;
 }
+
 .spacer {
   min-height: 4em;
 }
+
 
 div.carousel-inner {
   min-height: 14em;
@@ -914,6 +922,11 @@ a.mdnlink:after {
     background: transparent url('../img/mdn-logo-tiny.png') no-repeat;
 }
 
+.author {
+  text-align: center;
+  font-size: small;
+}
+
 
 @media (max-width: 768px) {
 
@@ -933,6 +946,7 @@ a.mdnlink:after {
     display: none;
     margin: 12px 0;
   }
+
   .well h1 {
     font-size: 28px;
     font-weight: 700;
