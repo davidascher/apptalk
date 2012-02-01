@@ -832,8 +832,17 @@ h1{
 .hero-unit li,p {
   font-size: xx-large;
   line-height: 1.3em;
-  font-weight: 400;
+  font-weight: 400  ;
 }
+
+.hero-unit ul li {
+  list-style-type: none;
+}
+
+.hero-unit ul li:before {
+  content: "\00BB \0020";
+}
+
 .code {
   font-family: 'Inconsolata', sans-serif;
   font-weight: 400;
